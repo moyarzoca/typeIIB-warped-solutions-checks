@@ -1,4 +1,4 @@
-# Deforming (AdS_3 \times S^3 \times T^4) in Type IIB Supergravity
+# Deforming AdS3 × S3 × T4 in Type IIB Supergravity
 
 This repository contains Wolfram Language scripts that verify the Type IIB supergravity equations for the solutions presented in Section 5 of:
 
@@ -8,13 +8,11 @@ This repository contains Wolfram Language scripts that verify the Type IIB super
 
 The script `check_equations.wl` evaluates the Type IIB equations of motion on each solution.
 
----
 
 ## Requirements
 
 * Wolfram Mathematica 14.3 or later
 
----
 
 ## Installation
 
@@ -25,7 +23,6 @@ git clone https://github.com/moyarzoca/typeIIB-warped-solutions-checks.git
 cd typeIIB-warped-solutions-checks
 ```
 
----
 
 ## Execution
 
@@ -37,7 +34,6 @@ wolframscript -file check_equations.wl
 
 Alternatively, open `check_equations.wl` in the Wolfram front end and evaluate it.
 
----
 
 ## Relation to the Paper
 
@@ -55,7 +51,6 @@ Each directory contains:
 * `equations.wl`
   Output produced by `check_equations.wl`, containing the evaluated equations of motion.
 
----
 
 ## Engine
 
