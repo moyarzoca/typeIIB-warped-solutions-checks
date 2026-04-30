@@ -4,7 +4,7 @@ This repository contains Wolfram Language scripts that verify the Type IIB super
 
 > Deforming AdS3 × S3 × T4 in Type IIB Supergravity
 > Stefano Maurelli, Ruggero Noris, Marcelo Oyarzo, Mario Trigiante
-> [arXiv:2603.XXXX [hep-th]](https://arxiv.org/abs/2603.XXXX)
+> [arXiv:2604.26854 [hep-th]](https://arxiv.org/abs/2604.26854)
 
 The script `check_equations.wl` evaluates the Type IIB equations of motion on each solution.
 
