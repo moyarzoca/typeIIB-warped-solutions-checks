@@ -5,8 +5,8 @@ Get[CurrentDir <> "typeIIBequations.wl"];
 
 Print["========\n   LightLike\n======="];
 Get[CurrentDir <> "lightlike/lightlike_configuration.wl"];
-equations = stringIIBequations[LightLikeBundle, LightLikeBundle["assum"], Simplify[#/.LightLikeBundle["evals","Delta"], LightLikeBundle["assum"]]&];
-EqsLightLike = Simplify[equations, LightLikeBundle["assum"]];
+EqsLightLike = stringIIBequations[LightLikeBundle, LightLikeBundle["assum"], Simplify[#/.LightLikeBundle["evals","Delta"], LightLikeBundle["assum"]]&];
+EqsLightLike = Simplify[EqsLightLike, LightLikeBundle["assum"]];
 Export[CurrentDir <> "lightlike/equations.wl", EqsLightLike];
 Print[EqsLightLike];
 
